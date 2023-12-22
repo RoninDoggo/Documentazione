@@ -163,7 +163,7 @@ components:
       xml:
         name: '##default'
   requestBodies:
-    Spesa:
+    CategoriaProd:
       description: oggetto CategoriaProd da aggiungere al registro
       content:
         application/json:
