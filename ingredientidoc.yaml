@@ -202,7 +202,7 @@ components:
       xml:
         name: '##default'
   requestBodies:
-    Spesa:
+    Ingrediente:
       description: oggetto Ingrediente da aggiungere al registro
       content:
         application/json:
