@@ -218,7 +218,7 @@ components:
       xml:
         name: '##default'
   requestBodies:
-    Spesa:
+    Utente:
       description: oggetto Utente da aggiungere al registro
       content:
         application/json:
