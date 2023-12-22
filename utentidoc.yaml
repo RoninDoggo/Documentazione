@@ -76,6 +76,25 @@ paths:
                 $ref: '#/components/schemas/Utente'
         '405':
           description: Input non valido
+
+  /utente/login:
+    get:
+      tags:
+        - utente
+      summary: Trova l'utente cercato
+      description: Trova l'utente cercato in base a email e password
+      operationId: getUtente
+      parameteters:
+        - in: path
+          name: email
+          required: true
+          schema:
+            type: string
+        - in: path
+          name: password
+          required: true
+          schema:
+            type: string
             
   /utente/{id}:
     get:
