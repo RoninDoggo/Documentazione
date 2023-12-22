@@ -20,14 +20,14 @@ servers:
   - url: http://localhost:8080/IngredientiServ/
 tags:
   - name: ingrediente
-    description: Tutto riguardo i tuoi ingrdienti
+    description: Tutto riguardo i tuoi ingredienti
 paths:
   /ingrediente:
   
     get:
       tags:
         - ingrediente
-      summary: Ottieni i ingreienti esistenti
+      summary: Ottieni glii ingredienti esistenti
       description: Ottieni i ingredienti esistenti
       operationId: elencoIngredienti
       responses:
