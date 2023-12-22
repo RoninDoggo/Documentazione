@@ -195,7 +195,6 @@ components:
     Utente:
       required:
         - email
-        - password_hash
       type: object
       properties:
         id_utente:
@@ -205,9 +204,6 @@ components:
         email:
           type: string
           example: 'nome.cognome@mail.com'
-        password_hash:
-          type: string
-          example: "aspkfmdklrja"
          
     ApiResponse:
       type: object
