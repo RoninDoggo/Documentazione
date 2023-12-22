@@ -17,7 +17,7 @@ externalDocs:
   description: Find out more about Swagger
   url: http://swagger.io
 servers:
-  - url: http://localhost:8080/UtentiServ/
+  - url: http://localhost:8080/RuoliServ/
 tags:
   - ruolo: utente
     description: Tutto riguardo i tuoi ruoli
